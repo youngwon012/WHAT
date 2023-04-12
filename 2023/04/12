@@ -1,0 +1,17 @@
+package duddnjs0628;
+
+public class Youngwon {
+
+	public static void main(String[] args) {
+		int a=18;
+		int b=99;
+		System.out.println("a는" + a +"이고 b는 "+b+"입니다");
+		int c= a;
+		a=b;
+		b=c;
+		System.out.println("a는" + a +"이고 b는 "+b+"입니다");
+		
+
+	}
+
+}
