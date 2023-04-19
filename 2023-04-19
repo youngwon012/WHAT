@@ -9,7 +9,19 @@ public class Haha {
 		int ㄻ = sc.nextInt();
 		
 		if(ㄻ==1) {
+			System.out.println("가스버너가 커집니다. 틱틱틱~");
+			System.out.println("물이 끓네요 보글보글 ");
+			System.out.println("1. 면-스프를 넣는다. 2.귀찮다. 그냥 편의점 가야지~");
+			int ㄻ2 = sc. nextInt();
 			
+			if(ㄻ2==1) {
+				System.out.println("면과 스프를 넣고 2분 더 끓였다.");
+				System.out.println("야무지게 먹어야지~ 후루룹 짭짭");
+			}else if(ㄻ2==2){
+				System.out.println("불을 끄고 편의점 갑니다 ㅃ2");
+			}else {
+				System.out.println("1, 2중에 하나만 입력해야 합니다! 빠이~");
+			}
 		}else if(ㄻ==2) {
 			System.out.println("생라면 먹방 가보자고 우걱우걱");
 		}else {
