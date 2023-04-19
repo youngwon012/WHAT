@@ -1,0 +1,23 @@
+public class Haha {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("라면을 끓여보자!");
+		System.out.println("가스레인지 앞에 섰다.");
+		System.out.println("1.불을 킨다.  2.귀찮다.생라면ㄱㄱ.");	
+		int ㄻ = sc.nextInt();
+		
+		if(ㄻ==1) {
+			
+		}else if(ㄻ==2) {
+			System.out.println("생라면 먹방 가보자고 우걱우걱");
+		}else {
+			System.out.println("1, 2중에 하나만 입력해야 합니다! 빠이~");
+		}
+		
+		
+
+	}
+
+}
