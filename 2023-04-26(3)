@@ -1,0 +1,20 @@
+public class Gjgjg {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("숫자 하나만 입력하바밥");
+	int num = sc.nextInt();
+	int 결과 = 0;
+	
+	for(int i=1; i<=num; i++) { 
+		if(i%2!=0 || i%3!=0) {
+			결과 = 결과 +i;
+			
+		}
+		
+	
+	}
+	System.out.println(결과);
+}
+}
+
