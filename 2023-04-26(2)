@@ -1,0 +1,26 @@
+public class Gjgjg {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("숫자 하나만 입력하바밥");
+	int num = sc.nextInt();
+	int 섬 = 0;
+	int 임시완 = 1;
+	
+	while(true) { 
+		System.out.println("현재숫자:"+임시완);
+		섬 = 섬 + 임시완;
+		System.out.println("현재합계:"+섬);
+		임시완++;
+		if(임시완> num) {
+		System.out.println("끝났네?");
+			break;
+		}
+	
+		System.out.println(섬);
+	
+	}
+	
+}
+}
