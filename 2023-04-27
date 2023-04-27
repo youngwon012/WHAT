@@ -1,0 +1,27 @@
+public class Gjgj {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			
+		
+		System.out.println("계산기 프로그램 입니다.");
+		System.out.println("계산기 실행(1) 종료(2)");
+		int 초이스 = sc.nextInt();
+		
+		if(초이스==1) {
+		
+		
+		} else if(초이스==2) {
+			
+			
+		}else {
+			System.out.println("just (1) or (2)");
+		
+		}
+		
+		
+	}
+	}
+}
