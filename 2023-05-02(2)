@@ -1,0 +1,22 @@
+public class Dpdp {
+
+	public static void main(String[] args) {
+		
+		int [] 배열 = new int[5];
+		int 엿 = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		while(엿<5) {
+			System.out.println("값을 입력하세요!");
+			배열[엿] = sc.nextInt();
+			엿++;
+		
+		}
+		
+		for(int 영원=0; 영원<5; 영원++) {
+		System.out.println(배열[영원]);
+		}
+	}
+	
+}
+		
