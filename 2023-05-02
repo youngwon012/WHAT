@@ -1,0 +1,31 @@
+public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Random rd = new Random();
+		
+		int 소주뚜껑 = rd.nextInt(49)+1;
+		int 횟수 = 0;
+		System.out.println("맞춰보라");
+		
+		while(true) {
+			int 입력 = sc.nextInt();
+			횟수++;
+			
+			if(소주뚜껑 < 입력) {
+				System.out.println("다운");
+			} else if(소주뚜껑 > 입력) {
+				System.out.println("업");
+			} else if(소주뚜껑 == 입력) {
+				System.err.println("맟췃누"+횟수+" 번 입력하셨네염^^");
+			} else {
+				System.out.println("숫자만 입력하라고");
+			} 
+			
+			
+		}
+		
+		
+		
+
+	}
+
+}
