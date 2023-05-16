@@ -1,0 +1,26 @@
+public class Gkdldy {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("체중");
+		float 몸무게 = sc.nextInt();
+		System.out.println("키");
+		float 키 = sc.nextFloat();
+		
+		float bmi = 몸무게 / (키 * 키);
+		
+		if(bmi < 18.5) {
+			System.out.println("저체중입니다.");
+		} else if(bmi <= 24.9) {
+			System.out.println("건강하시네욤");
+		} else if(bmi <= 29.9) {
+			System.out.println("과체중이세요");
+		} else if(bmi >= 30) {
+			System.out.println("비만인걸");
+		} else {
+			System.out.println("값 오류");
+		}
+		
+	}
+
+}
