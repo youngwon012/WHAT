@@ -1,0 +1,29 @@
+public class Ghkgo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+       
+        for(int i=1; i<=40; i++) {
+        }
+       
+        int num = sc.nextInt();
+        int 박수 = 0;
+       
+        while(true) {
+            System.out.println(num);
+            if(num%10==3 || num%10==6 || num%10==9) {
+                System.out.println(num+": 짝");
+                박수++;
+            }
+            num = num / 10;
+            if(num==0) {
+                break;
+            }
+        }
+       
+   
+        
+       
+       
+    }
+}
