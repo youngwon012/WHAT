@@ -1,0 +1,2 @@
+family={'mother', 'father', 'gentleman', 'sexylady'}
+len(family)
