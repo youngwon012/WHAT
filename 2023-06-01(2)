@@ -1,0 +1,25 @@
+public class EOqkrwjrdlek {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Random rd = new Random();
+		
+		System.out.println("가로?");
+		int rows= sc.nextInt();
+		
+		System.out.println("세로?");
+		int cols = sc.nextInt();
+		
+		int[] 자리= new int[rows*cols];
+		
+		for(int i=0; i<자리.length; i++) {
+			자리[i] = rd.nextInt(rows*cols)+1;
+			
+		}
+		
+		
+		
+	
+	}
+
+}
