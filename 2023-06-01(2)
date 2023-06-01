@@ -15,6 +15,11 @@ public class EOqkrwjrdlek {
 		for(int i=0; i<자리.length; i++) {
 			자리[i] = rd.nextInt(rows*cols)+1;
 			
+			for(int j=0;j<i; j++) {
+				if(자리[i] == 자리[j])
+					i--;
+			}
+			
 		}
 		
 		
